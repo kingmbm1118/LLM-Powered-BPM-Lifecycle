@@ -2,8 +2,8 @@ import os
 import streamlit as st
 from graphviz import Digraph
 import xmltodict
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains import LLMChain
 import json
 import re
