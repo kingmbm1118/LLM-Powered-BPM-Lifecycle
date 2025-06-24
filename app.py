@@ -388,8 +388,8 @@ def main():
         )
         
         # Advanced options
-        show_xml = st.checkbox("Show BPMN XML", False)
-        show_prompts = st.checkbox("Show Prompts", False)
+        show_xml =  False
+        show_prompts =  False
         
         st.divider()
         st.markdown("**💡 Tips:**")
