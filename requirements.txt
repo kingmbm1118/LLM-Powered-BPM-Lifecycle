@@ -1,5 +1,7 @@
-streamlit
-graphviz
-xmltodict
-langchain
-openai
+streamlit>=1.28.0
+graphviz>=0.20.1
+xmltodict>=0.13.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+openai>=1.0.0
